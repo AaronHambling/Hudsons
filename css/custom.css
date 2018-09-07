@@ -15,6 +15,19 @@
   }
 }
 
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 2rem;
+  }
+}
+
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
@@ -35,3 +48,286 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.justify-content-sm-center img {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 2px;
+}
+
+.nav-item {
+	margin: 40px;
+}
+
+#logo {
+	margin-top: 20px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+/* From www.coffeeclub.com */
+
+@font-face {
+    font-family: 'viva';
+    src: url('../Fonts/cultivated_mind_-_viva_beautiful-webfont.woff2') format('woff2'), url('../Fonts/cultivated_mind_-_viva_beautiful-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('../Fonts/brandon_light-webfont.woff2') format('woff2'), url('../Fonts/brandon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('../Fonts/brandon_med-webfont.woff2') format('woff2'), url('../Fonts/brandon_med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-top: 8.9rem;
+}
+
+.header-container {
+    font-family: 'brandon_grotesquemedium';
+    text-align: right;
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+}
+
+.header-td {
+    padding-left:15px;
+    padding-right: 10px;
+}
+
+    .header-container a {
+        font-size:14px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+        .header-container a:hover {
+            text-decoration: none;
+            color: #9c6f49;
+        }
+
+.navbar {
+    border-bottom: solid 3px;
+    border-color: #9c6f49;
+    top: 30px;
+    padding: 0;
+}
+
+.nav-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p, h2, li, small, dd, .alert, .form-control, .dropdown-item {
+    font-family: 'brandon_grotesquelight', sans-serif;
+    font-size: 1.3rem;
+}
+
+    p small {
+        font-size: 1.0rem;
+    }
+
+.navbar li, .dropdown-item {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.lead {
+    font-family: 'brandon_grotesquelight', sans-serif;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    font-family: 'brandon_grotesquelight', sans-serif;
+}
+
+.btn {
+    font-family: 'brandon_grotesquemedium', sans-serif;
+}
+
+h1 {
+    font-family: 'brandon_grotesquemedium', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #9c6f49;
+}
+
+dl {
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-top: 15px;
+    border-color: #9c6f49;
+    color: #9c6f49;
+}
+
+    .btn:hover, .btn:focus, .btn:active {
+        margin-top: 15px;
+        border-color: #9c6f49;
+        background-color: #9c6f49;
+        color: #fff;
+    }
+
+.question {
+    color: #9c6f49;
+    font-weight: bold;
+}
+
+a {
+    color: #9c6f49;
+}
+
+    a:hover, a:focus, a:active {
+        color: #9c6f49;
+    }
+
+.quicklinks-container {
+    background-color: rgba(156, 111, 73, 0.12);
+    padding: 1em;
+    text-align: center;
+}
+
+.quicklinks-button {
+    width: 160px;
+}
+
+.quicklinks-row {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.title-row {
+    margin-top: 45px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-row {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.fzandcareers-container {
+    padding: 45px 20px 45px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../Images/Index/fzandcareers.png);
+}
+
+    .fzandcareers-container span {
+        font-family: viva,sans-serif;
+        text-shadow: 0 3px 6px rgba(0,0,0,.23);
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    .fzandcareers-container .btn {
+        border-color: #fff;
+        color: #fff;
+        width: 220px;
+    }
+
+    .fzandcareers-container .btn:hover, .btn:focus, .btn:active {
+        margin-top: 15px;
+        border-color: #fff;
+        background-color: #fff;
+        color: #000;
+    }
+
+.social-container {
+    background-color: #9c6f49;
+    text-align: center;
+    color: #fff;
+    padding: 20px 10px;
+    border-bottom: 3px solid #361E01;
+    margin-bottom: 0;
+}
+
+    .social-container span {
+        font-family: viva,sans-serif;
+        text-shadow: 0 3px 6px rgba(0,0,0,.23);
+        font-size: 2.9rem;
+    }
+
+.footer-container {
+    padding: 30px 20px 25px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../Images/footer-banner.jpg);
+}
+
+    .footer-container span {
+        font-family: viva,sans-serif;
+        text-shadow: 0 3px 6px rgba(0,0,0,.23);
+        font-size: 2.9rem;
+    }
+
+.copyright-container {
+    text-align: center;
+    padding: 15px 15px 15px;
+}
+
+    .copyright-container span {
+        color: #7d7d7e;
+        font-size: 0.75rem;
+    }
+
+/* VIP Pages */
+
+.vipperk-container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* About Us Pages */
+
+.promise-container {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Stores Pages */
+
+.location-container {
+    padding-bottom: 15px;
+}
+
+.hours-container {
+    padding-bottom: 25px;
+}
+
