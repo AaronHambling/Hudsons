@@ -62,6 +62,7 @@ footer p {
 
 #logo {
 	margin-top: 20px;
+	margin: auto;
 }
 
 .navbar-brand {
@@ -117,17 +118,17 @@ body {
     .header-container a {
         font-size:14px;
         text-decoration: none;
-        color: #fff;
+        color: #000;
     }
 
         .header-container a:hover {
             text-decoration: none;
-            color: #9c6f49;
+            color: #000;
         }
 
 .navbar {
     border-bottom: solid 3px;
-    border-color: #9c6f49;
+    border-color: #000;
     top: 30px;
     padding: 0;
 }
@@ -170,7 +171,7 @@ h1 {
     font-family: 'brandon_grotesquemedium', sans-serif;
     font-size: 2rem;
     margin-bottom: 25px;
-    color: #9c6f49;
+    color: #000;
 }
 
 dl {
@@ -179,28 +180,28 @@ dl {
 
 .btn {
     margin-top: 15px;
-    border-color: #9c6f49;
-    color: #9c6f49;
+    border-color: #fff;
+    color: #fff;
 }
 
     .btn:hover, .btn:focus, .btn:active {
         margin-top: 15px;
-        border-color: #9c6f49;
-        background-color: #9c6f49;
-        color: #fff;
+        border-color: #000;
+        background-color: #fff;
+        color: #000;
     }
 
 .question {
-    color: #9c6f49;
+    color: #000;
     font-weight: bold;
 }
 
 a {
-    color: #9c6f49;
+    color: #000;
 }
 
     a:hover, a:focus, a:active {
-        color: #9c6f49;
+        color: #000;
     }
 
 .quicklinks-container {
@@ -272,7 +273,7 @@ a {
 .social-container {
     background-color: #9c6f49;
     text-align: center;
-    color: #fff;
+    color: #343a40;
     padding: 20px 10px;
     border-bottom: 3px solid #361E01;
     margin-bottom: 0;
@@ -287,7 +288,7 @@ a {
 .footer-container {
     padding: 30px 20px 25px;
     text-align: center;
-    color: #fff;
+    color: #343a40;
     background-image: url(../Images/footer-banner.jpg);
 }
 
@@ -303,7 +304,7 @@ a {
 }
 
     .copyright-container span {
-        color: #7d7d7e;
+        color: #000;
         font-size: 0.75rem;
     }
 
@@ -329,5 +330,20 @@ a {
 
 .hours-container {
     padding-bottom: 25px;
+}
+
+.navbar-light {
+	background-color: #272C3D;
+}
+.btn-primary {
+	background-color: #CC3333;
+}
+
+.my-2 {
+	background-color: #CC3333;
+}
+
+#navbarDropdownMenuLink, .nav-link {
+	color: #fff;
 }
 
