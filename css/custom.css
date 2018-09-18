@@ -320,3 +320,9 @@ a {
 	-ms-transform: rotate(90deg);
 }
 
+.special {
+	background-image: url(./../Images/photo-1504630083234-14187a9df0f5.jpeg) ;
+	height: 800px;
+	margin: auto;
+	display: block;
+}
